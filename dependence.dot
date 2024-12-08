@@ -1,18 +1,11 @@
 digraph packages {
   size="10"; ratio=fill;
-  clean_arch [shape="box"; color="#1ceb74"];
   domain [shape="box"; color="#d0351f"];
   gateway [shape="box"; color="#1994f9"];
   infrastructure [shape="box"; color="#2ab7ce"];
   presentation [shape="box"; color="#56683d"];
   usecase [shape="box"; color="#7866ca"];
   view_model [shape="box"; color="#22ceb2"];
-  clean_arch -> domain [style="filled"; color="#d0351f"];
-  clean_arch -> usecase [style="filled"; color="#7866ca"];
-  clean_arch -> gateway [style="filled"; color="#1994f9"];
-  clean_arch -> infrastructure [style="filled"; color="#2ab7ce"];
-  clean_arch -> view_model [style="filled"; color="#22ceb2"];
-  clean_arch -> presentation [style="filled"; color="#56683d"];
   gateway -> domain [style="filled"; color="#d0351f"];
   infrastructure -> gateway [style="filled"; color="#1994f9"];
   infrastructure -> domain [style="filled"; color="#d0351f"];
@@ -23,7 +16,6 @@ digraph packages {
   subgraph "cluster packages" {
     label="packages";
     color="#6b4949";
-    clean_arch;
     domain;
     gateway;
     infrastructure;
