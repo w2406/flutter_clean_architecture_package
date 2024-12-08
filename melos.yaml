@@ -1,0 +1,11 @@
+name: clean_arch
+packages:
+  - "packages/**"
+# sdkPath: .fvm/flutter_sdk
+scripts:
+  build_runner:
+    run: melos exec -- "flutter pub run build_runner build -d"
+    description: Run 'flutter pub run build_runner build -d' in all packages.
+  pub_get:
+    run: melos exec -- "flutter pub get"
+    description: Run 'flutter pub get' in all packages.

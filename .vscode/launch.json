@@ -1,0 +1,153 @@
+{
+    // IntelliSense を使用して利用可能な属性を学べます。
+    // 既存の属性の説明をホバーして表示します。
+    // 詳細情報は次を確認してください: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "flutter_clean_architecture_package",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "app",
+            "cwd": "packages/app",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "app (profile mode)",
+            "cwd": "packages/app",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "app (release mode)",
+            "cwd": "packages/app",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "domain",
+            "cwd": "packages/domain",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "domain (profile mode)",
+            "cwd": "packages/domain",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "domain (release mode)",
+            "cwd": "packages/domain",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "gateway",
+            "cwd": "packages/gateway",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "gateway (profile mode)",
+            "cwd": "packages/gateway",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "gateway (release mode)",
+            "cwd": "packages/gateway",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "infrastructure",
+            "cwd": "packages/infrastructure",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "infrastructure (profile mode)",
+            "cwd": "packages/infrastructure",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "infrastructure (release mode)",
+            "cwd": "packages/infrastructure",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "presentation",
+            "cwd": "packages/presentation",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "presentation (profile mode)",
+            "cwd": "packages/presentation",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "presentation (release mode)",
+            "cwd": "packages/presentation",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "usecase",
+            "cwd": "packages/usecase",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "usecase (profile mode)",
+            "cwd": "packages/usecase",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "usecase (release mode)",
+            "cwd": "packages/usecase",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "view_model",
+            "cwd": "packages/view_model",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "view_model (profile mode)",
+            "cwd": "packages/view_model",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "view_model (release mode)",
+            "cwd": "packages/view_model",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        }
+    ]
+}
