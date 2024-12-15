@@ -12,16 +12,10 @@ dependencies:
   flutter_riverpod: ^2.6.1
   riverpod_annotation: ^2.6.1
   # 各層のパッケージ
-  domain:
-    path: '../domain'
-  usecase:
-    path: '../usecase'
   gateway:
     path: '../gateway'
   infrastructure:
     path: '../infrastructure'
-  view_model:
-    path: '../view_model'
   presentation:
     path: '../presentation'
   build_runner: ^2.4.13

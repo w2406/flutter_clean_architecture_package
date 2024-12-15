@@ -295,7 +295,7 @@ packages:
     source: hosted
     version: "3.0.2"
   domain:
-    dependency: "direct main"
+    dependency: transitive
     description:
       path: "../domain"
       relative: true
@@ -1106,7 +1106,7 @@ packages:
     source: hosted
     version: "1.4.0"
   usecase:
-    dependency: "direct main"
+    dependency: transitive
     description:
       path: "../usecase"
       relative: true
@@ -1129,7 +1129,7 @@ packages:
     source: hosted
     version: "2.1.4"
   view_model:
-    dependency: "direct main"
+    dependency: transitive
     description:
       path: "../view_model"
       relative: true
