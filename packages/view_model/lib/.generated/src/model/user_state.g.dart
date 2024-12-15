@@ -6,7 +6,7 @@ part of '../../../src/model/user_state.dart';
 // RiverpodGenerator
 // **************************************************************************
 
-String _$userStateNotifierHash() => r'eca29bf09f0daaff064e384c1ea3f8e46da8254f';
+String _$userStateNotifierHash() => r'7bf77c31b354956a082f051147027102fa98f3f6';
 
 /// See also [UserStateNotifier].
 @ProviderFor(UserStateNotifier)

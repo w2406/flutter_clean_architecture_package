@@ -7,5 +7,5 @@ part '../../../.generated/src/user/repository/user_repository.g.dart';
 UserRepository userRepository(_) => throw UnimplementedError();
 
 abstract interface class UserRepository {
-  Future<User?> get();
+  Future<User> get();
 }

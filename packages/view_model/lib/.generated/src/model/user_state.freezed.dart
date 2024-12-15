@@ -16,7 +16,7 @@ final _privateConstructorUsedError = UnsupportedError(
 
 /// @nodoc
 mixin _$UserState {
-  User? get user => throw _privateConstructorUsedError;
+  UserDto get user => throw _privateConstructorUsedError;
 
   /// Create a copy of UserState
   /// with the given fields replaced by the non-null parameter values.
@@ -30,9 +30,9 @@ abstract class $UserStateCopyWith<$Res> {
   factory $UserStateCopyWith(UserState value, $Res Function(UserState) then) =
       _$UserStateCopyWithImpl<$Res, UserState>;
   @useResult
-  $Res call({User? user});
+  $Res call({UserDto user});
 
-  $UserCopyWith<$Res>? get user;
+  $UserDtoCopyWith<$Res> get user;
 }
 
 /// @nodoc
@@ -50,13 +50,13 @@ class _$UserStateCopyWithImpl<$Res, $Val extends UserState>
   @pragma('vm:prefer-inline')
   @override
   $Res call({
-    Object? user = freezed,
+    Object? user = null,
   }) {
     return _then(_value.copyWith(
-      user: freezed == user
+      user: null == user
           ? _value.user
           : user // ignore: cast_nullable_to_non_nullable
-              as User?,
+              as UserDto,
     ) as $Val);
   }
 
@@ -64,12 +64,8 @@ class _$UserStateCopyWithImpl<$Res, $Val extends UserState>
   /// with the given fields replaced by the non-null parameter values.
   @override
   @pragma('vm:prefer-inline')
-  $UserCopyWith<$Res>? get user {
-    if (_value.user == null) {
-      return null;
-    }
-
-    return $UserCopyWith<$Res>(_value.user!, (value) {
+  $UserDtoCopyWith<$Res> get user {
+    return $UserDtoCopyWith<$Res>(_value.user, (value) {
       return _then(_value.copyWith(user: value) as $Val);
     });
   }
@@ -83,10 +79,10 @@ abstract class _$$UserStateImplCopyWith<$Res>
       __$$UserStateImplCopyWithImpl<$Res>;
   @override
   @useResult
-  $Res call({User? user});
+  $Res call({UserDto user});
 
   @override
-  $UserCopyWith<$Res>? get user;
+  $UserDtoCopyWith<$Res> get user;
 }
 
 /// @nodoc
@@ -102,13 +98,13 @@ class __$$UserStateImplCopyWithImpl<$Res>
   @pragma('vm:prefer-inline')
   @override
   $Res call({
-    Object? user = freezed,
+    Object? user = null,
   }) {
     return _then(_$UserStateImpl(
-      user: freezed == user
+      user: null == user
           ? _value.user
           : user // ignore: cast_nullable_to_non_nullable
-              as User?,
+              as UserDto,
     ));
   }
 }
@@ -119,7 +115,7 @@ class _$UserStateImpl implements _UserState {
   const _$UserStateImpl({required this.user});
 
   @override
-  final User? user;
+  final UserDto user;
 
   @override
   String toString() {
@@ -147,10 +143,10 @@ class _$UserStateImpl implements _UserState {
 }
 
 abstract class _UserState implements UserState {
-  const factory _UserState({required final User? user}) = _$UserStateImpl;
+  const factory _UserState({required final UserDto user}) = _$UserStateImpl;
 
   @override
-  User? get user;
+  UserDto get user;
 
   /// Create a copy of UserState
   /// with the given fields replaced by the non-null parameter values.

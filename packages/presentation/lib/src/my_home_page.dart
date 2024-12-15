@@ -19,7 +19,7 @@ class MyHomePage extends ConsumerWidget {
           data: (data) => Center(
                 child: Column(
                   children: [
-                    Text('名前：${data.user?.name.value ?? ''}'),
+                    Text('名前：${data.user?.name ?? ''}'),
                     const SizedBox(height: 16),
                     Text('ログイン状態：${data.loggedIn}'),
                     const SizedBox(height: 16),

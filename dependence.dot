@@ -8,10 +8,8 @@ digraph packages {
   view_model [shape="box"; color="#22ceb2"];
   gateway -> domain [style="filled"; color="#d0351f"];
   infrastructure -> gateway [style="filled"; color="#1994f9"];
-  infrastructure -> domain [style="filled"; color="#d0351f"];
   presentation -> view_model [style="filled"; color="#22ceb2"];
   usecase -> domain [style="filled"; color="#d0351f"];
-  view_model -> domain [style="filled"; color="#d0351f"];
   view_model -> usecase [style="filled"; color="#7866ca"];
   subgraph "cluster packages" {
     label="packages";

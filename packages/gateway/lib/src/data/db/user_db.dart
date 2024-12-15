@@ -1,5 +1,5 @@
-import 'package:domain/domain.dart';
+import 'package:gateway/gateway.dart';
 
 abstract interface class UserDb {
-  Future<User?> getUser();
+  Future<UserDto?> getUser();
 }

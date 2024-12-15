@@ -16,7 +16,7 @@ final _privateConstructorUsedError = UnsupportedError(
 
 /// @nodoc
 mixin _$MyHomePageState {
-  User? get user => throw _privateConstructorUsedError;
+  UserDto? get user => throw _privateConstructorUsedError;
   bool get loggedIn => throw _privateConstructorUsedError;
 
   /// Create a copy of MyHomePageState
@@ -32,9 +32,9 @@ abstract class $MyHomePageStateCopyWith<$Res> {
           MyHomePageState value, $Res Function(MyHomePageState) then) =
       _$MyHomePageStateCopyWithImpl<$Res, MyHomePageState>;
   @useResult
-  $Res call({User? user, bool loggedIn});
+  $Res call({UserDto? user, bool loggedIn});
 
-  $UserCopyWith<$Res>? get user;
+  $UserDtoCopyWith<$Res>? get user;
 }
 
 /// @nodoc
@@ -59,7 +59,7 @@ class _$MyHomePageStateCopyWithImpl<$Res, $Val extends MyHomePageState>
       user: freezed == user
           ? _value.user
           : user // ignore: cast_nullable_to_non_nullable
-              as User?,
+              as UserDto?,
       loggedIn: null == loggedIn
           ? _value.loggedIn
           : loggedIn // ignore: cast_nullable_to_non_nullable
@@ -71,12 +71,12 @@ class _$MyHomePageStateCopyWithImpl<$Res, $Val extends MyHomePageState>
   /// with the given fields replaced by the non-null parameter values.
   @override
   @pragma('vm:prefer-inline')
-  $UserCopyWith<$Res>? get user {
+  $UserDtoCopyWith<$Res>? get user {
     if (_value.user == null) {
       return null;
     }
 
-    return $UserCopyWith<$Res>(_value.user!, (value) {
+    return $UserDtoCopyWith<$Res>(_value.user!, (value) {
       return _then(_value.copyWith(user: value) as $Val);
     });
   }
@@ -90,10 +90,10 @@ abstract class _$$MyHomePageStateImplCopyWith<$Res>
       __$$MyHomePageStateImplCopyWithImpl<$Res>;
   @override
   @useResult
-  $Res call({User? user, bool loggedIn});
+  $Res call({UserDto? user, bool loggedIn});
 
   @override
-  $UserCopyWith<$Res>? get user;
+  $UserDtoCopyWith<$Res>? get user;
 }
 
 /// @nodoc
@@ -116,7 +116,7 @@ class __$$MyHomePageStateImplCopyWithImpl<$Res>
       user: freezed == user
           ? _value.user
           : user // ignore: cast_nullable_to_non_nullable
-              as User?,
+              as UserDto?,
       loggedIn: null == loggedIn
           ? _value.loggedIn
           : loggedIn // ignore: cast_nullable_to_non_nullable
@@ -131,7 +131,7 @@ class _$MyHomePageStateImpl implements _MyHomePageState {
   const _$MyHomePageStateImpl({required this.user, required this.loggedIn});
 
   @override
-  final User? user;
+  final UserDto? user;
   @override
   final bool loggedIn;
 
@@ -165,11 +165,11 @@ class _$MyHomePageStateImpl implements _MyHomePageState {
 
 abstract class _MyHomePageState implements MyHomePageState {
   const factory _MyHomePageState(
-      {required final User? user,
+      {required final UserDto? user,
       required final bool loggedIn}) = _$MyHomePageStateImpl;
 
   @override
-  User? get user;
+  UserDto? get user;
   @override
   bool get loggedIn;
 

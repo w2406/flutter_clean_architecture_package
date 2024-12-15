@@ -20,6 +20,7 @@ dependencies:
     path: '../presentation'
   build_runner: ^2.4.13
   realm: ^20.0.0
+  freezed_annotation: ^2.4.4
   
 
 dev_dependencies:
